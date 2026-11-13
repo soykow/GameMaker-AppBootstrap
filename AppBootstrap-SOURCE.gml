@@ -5,7 +5,7 @@ var _app_asset = asset_get_index( "App" );
 
 //	App объект существует
 //	Создание экземпляра App объекта и загрузка ( bootstrap ) игры
-if ( _app_asset != -1 )
+if ( object_exists( _app_asset ) )
 {
 	//	Creating a new room to prepare an instance without references inside the object instances, 
 	//	which can be described in the instances that the room creates when loading
